@@ -1,0 +1,45 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.container-center{
+            width: auto;
+            display: grid;
+            align-items: center;
+            justify-content: start;
+            margin-bottom: 1rem;
+            padding: 10px;
+
+}
+.container-center p{
+            color: gray;
+            justify-content: center;
+            align-items: center;
+
+}
+
+.container-center button{
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    transition: 0.4s;
+}
+
+.container-center button:hover{
+        opacity: 1;
+        right: 0;
+        scale: 1.03;
+}
+

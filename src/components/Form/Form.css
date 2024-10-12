@@ -1,0 +1,104 @@
+.form-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 2px solid lightgray;
+  outline: none;
+  border-radius: 10px;
+}
+.form-header {
+  padding: 20px;
+  margin: 20px;
+}
+.form-header p {
+  color: gray;
+  font-size: 35px;
+}
+.form-header h3 {
+  margin-left: 30px;
+  color: gray;
+  font-weight: normal;
+}
+.form-container .line {
+  margin-bottom: 20px;
+  display: block;
+  width: 600px;
+}
+
+.form-inputs {
+  display: grid;
+  gap: 20px;
+}
+
+.form-inputs input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  font-size: 15px;
+  gap: 10px;
+    color: black;
+
+
+}
+.form-inputs .border-input{
+    border: 2px solid orange;
+    
+}
+
+.form-button{
+    
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+
+
+
+    
+
+
+
+}
+.form-button button{
+    padding: 10px;
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+.form-button .submit{
+ background-color: orange;
+ color: white;
+ cursor: pointer;
+ transition: 0.3s;
+
+}
+.form-button .reset{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.form-button .submit:hover{
+  scale: 1.06;
+}
+.form-button .reset:hover{
+  scale: 1.06;
+}
+
+.form-button .submit .reset:hover{
+    background: lightgray;
+    scale: 1.5;
+    
+}
